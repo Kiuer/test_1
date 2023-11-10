@@ -1,4 +1,9 @@
-   /* logo */
+ html{
+    height: 3000px;
+    width: 2000px;
+ }
+ 
+ /* logo */
 
 .logo{
     position: absolute;
@@ -40,7 +45,7 @@
 
 body{
 
-    background-color: rgb(203, 216, 241);
+    background-color: rgb(247, 247, 247);
     border: 0 0;
     padding: 0;
     margin: 0;
@@ -54,7 +59,7 @@ body{
     display: flex;
     align-content: center;
     background-color: #323b57;
-    width: 100%;
+    width: auto;
     height: 500px;
 
 }
@@ -183,3 +188,129 @@ body{
 .Time{background-color: #F9AB55;}
 .Enjoy{background-color: #909CC2;}
 
+/* imgs */
+
+.Body-imgs{
+
+    position: relative;
+    top: 100px;
+    margin: 80px;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+    list-style: none;
+    height: 150px;
+    width: auto;
+    padding: 0;
+ 
+}
+.Border{
+    border: 8px solid #F58A07;
+    border-radius: 10%;
+}
+
+.Quotes {
+    color: #0c1535;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.Note{
+    background-color:#323b57;
+    border-top: 20px solid #F9AB55;
+    border-bottom:20px solid #F9AB55;
+    width: auto;
+    height: 220px;
+    position:relative;
+    top: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Happy{
+    color: white;
+    letter-spacing: 25px;
+}
+
+.Sign-note{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #084887;
+    height: 300px;
+    width: 1200px;
+    border: solid 10px lightblue;
+    border-radius: 10%;
+    position: absolute;
+    top: 700px;
+    left: 350px;
+    position: relative;
+}
+
+.Sign-head{
+    color: white;
+    flex: 1 0 0;
+    position: relative;
+    left: 70px;
+    bottom:50px;
+    font-size: 50px;
+}
+
+.Sign-p{
+    color: white;
+    flex: 1 0 0;
+    position: relative;
+    right: 420px;
+    top: 60px;
+    font-size: 35px;
+  
+}
+
+.Sign-button{
+
+    display: flex;
+
+   
+    background-color: #084887;
+    border: 3px solid white;
+    border-radius: 10%;
+    height: 80px;
+    width: 250px;
+    position: relative;
+    right: 150px;
+    margin:0 0;
+ 
+
+}
+
+.Sign-up{
+
+    position: relative;
+    top: 20px;
+    color: white;
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+.FINALY{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c1535;
+    width: auto;
+    height: 200px;
+    position: relative;
+    top: 1000px;
+}
+
+.Anderson{
+    color: white;font-size: 40px;
+}
